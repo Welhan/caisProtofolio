@@ -262,8 +262,34 @@ display: flex;
     right: 0;
 }
 
-.service-box{
+.services-box{
     display: flex;
     flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
+.services-box .services-content{
+    flex: 1 1 10rem;
+    border: var(--border);
+    border-radius: .5rem;
+    padding: .8rem .5rem 1.1rem;
+    text-align: center;
+    transition: .3s ease;
+}
+
+.services-box .services-content:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.services-content i{
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
+.services-content p{
+    margin-top: .5rem;
+}
+
+.services-content a{
+    margin-top: 1rem;
+}
