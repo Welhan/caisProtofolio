@@ -262,3 +262,8 @@ display: flex;
     right: 0;
 }
 
+.service-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
