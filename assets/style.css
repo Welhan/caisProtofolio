@@ -388,3 +388,9 @@ display: flex;
 .portofolio-box .info-box p{
     text-align: justify;
 }
+
+.portofolio-box .btn-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
