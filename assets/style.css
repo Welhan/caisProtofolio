@@ -394,3 +394,51 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.contact-box{
+    text-align: center;
+}
+
+.contact-box .field{
+    width: 100%;
+    background: transparent;
+    border: var(--border);
+    border-radius: .3rem;
+    padding: .8rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-box .field::placeholder{
+    color: var(--main-color);
+}
+
+.contact-box textarea{
+    resize: none;
+}
+
+.contact-box .btn{
+    cursor: pointer;
+}
+
+.back-first-page{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    right: 1rem;
+    bottom: .2rem;
+    background: transparent;
+    border-radius: .3rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.back-first-page:hover{
+    border: var(--border);
+    color: var(--main-color);
+}
